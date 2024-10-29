@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-#### *A bit about my professional and educational experience*
-
 **Education**\
 Columbia University Mailman School of Public Health, New York, NY\
 • M.S. Environmental Health Data Science\
