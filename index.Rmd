@@ -4,6 +4,4 @@ title: "Dylan's Personal Website"
 
 #### *Personal Website for Dylan Morgan*
 
-<img src="images/panthers.jpg" style="width:75%">
 <img src="images/orioles.jpg" style="width:75%">
-<img src="images/unc.jpg" style="width:75%">
