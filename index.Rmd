@@ -1,7 +1,7 @@
 ---
-title: "Dylan's Personal Website (dcm2192)"
+title: "Dylan's Personal Website"
 ---
 
-### Webpage subheading
+### *Personal Website for Dylan Morgan*
 
-Body text
+<img src="images/orioles.jpg" style="width:75%">
