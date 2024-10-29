@@ -2,6 +2,52 @@
 title: "About"
 ---
 
-#### *About this site*
+#### *A bit about my professional and educational experience*
 
-Body text 
+**Education**\
+Columbia University Mailman School of Public Health, New York, NY\
+• M.S. Environmental Health Data Science\
+
+University of North Carolina at Chapel Hill, Chapel Hill, NC\
+• B.S. Environmental Science; Minors in Data Science and Geographic Information Sciences\
+• Graduated with Distinction (GPA: 3.697/4.0)\
+
+**Professional Experience**\
+Columbia University Mailman School of Public Health Department of Environmental Health Sciences, New York, NY\
+Student Research Assistant | September 2024 – present\
+• Compile and analyze nationwide data regarding facilities violating federal environmental laws
+
+City of Raleigh Information Technology, Raleigh, NC\
+GIS Analyst | May 2022 – May 2024\
+• Developed maps, web apps, and online dashboards to showcase citywide data from various departments, including public utilities, planning and development, and sustainability\
+• Maintained geospatial datasets for the city and performed data analysis to support citywide initiatives\
+• Provided technical support and satisfied data requests for city employees and external customers\
+\
+UNC Institute for the Environment, Chapel Hill, NC\
+Research Assistant | November 2021 – May 2022\
+• Visualized vehicle emissions data in major metropolitan areas (New York City, Atlanta)\
+• Analyzed trends in vehicle-based air pollution and modeled emissions predictions\
+\
+Carbonshed Lab at Carolina, Chapel Hill, NC\
+Field and Lab Assistant | August 2021 – May 2022\
+• Contributed to Carbonshed Lab’s study of water pollution in beaver dams and retention ponds in Durham, NC, by collecting water samples and measuring stream discharge, water conductivity, and water level fluctuations\
+\
+North Carolina Policy Collaboratory, Chapel Hill, NC\
+Environmental Policy Intern | August 2020 – December 2021\
+• Synthesized multi-institutional research pertaining to flood damage and flood resiliency efforts in North Carolina’s coastal plain into a comprehensive report submitted to NC General Assembly\
+• Created project and policy briefs covering topics such as regulatory efforts to combat toxic algae in freshwater sources\
+• Designed infographics to illustrate methods and results of Collaboratory’s PFAS research\
+\
+UNC Institute for the Environment Center for Public Engagement with Science, Chapel Hill, NC\
+Environmental Research Assistant | May 2020 – May 2021\
+• Researched public health information to compile into resources for community outreach and citizen science, utilizing GIS and Microsoft Office tools to aid in research\
+• Assisted in creating classroom materials and coordinating professional development programs for teachers\
+\
+UNC Chapel Hill Herbarium, Chapel Hill, NC\
+Biodiversity Database Entry Technician | August 2018 – May 2020\
+• Captured hundreds of digital images and compiled skeletal records of vascular plant specimens collected by biologists in the southeastern United States\
+• Contributed to online repository of historical plant data to aid in geolocation\
+
+**Key	Skills**\
+• Proficient with GIS software (ArcGIS Pro, ArcMap, ArcGIS Online), Python, R, Adobe Illustrator, Adobe Photoshop, Microsoft Office Suite\
+• ITIL®	Foundation Certificate in IT Service Management\
