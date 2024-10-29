@@ -4,4 +4,6 @@ title: "Dylan's Personal Website"
 
 #### *Personal Website for Dylan Morgan*
 
+Welcome to my personal website! In the navigation bar above, you can learn more about my professional and educational experience included in the "About" tab, and you can connect with me via email, GitHub, and LinkedIn.
+
 <img src="images/orioles.jpg" style="width:75%">
