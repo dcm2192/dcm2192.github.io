@@ -3,7 +3,7 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Dashboard"
+    - text: "NY NOAA Dashboard"
       href: dashboard.html
     - text: "About"
       href: about.html
