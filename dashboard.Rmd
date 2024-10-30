@@ -9,11 +9,7 @@ library(plotly)
 library(dplyr)
 ```
 
-Create a flexdashboard using plotly for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.). Use one of the following datasets, and load from the p8105.datasets package: -- Instacart, NY NOAA, NYC Restaurant Inspections
-
-These datasets are large; you may want / need to filter or randomly sample from the complete dataset to ensure a reasonable product.
-
-Load NYC Restaurant Data.
+Load NYC restaurant inspection data.
 ```{r}
 data("rest_inspec") 
 
@@ -23,5 +19,19 @@ rest_inspect_sample <-
   slice_sample(n = 500)
 ```
 
+Generate plots for NYC restaurant inspection data.
+```{r}
+rest_inspect_sample |> 
+  count(grade) |> 
+  mutate(grade = fct_reorder(grade, n)) |> 
+  plot_ly(x = ~grade, y = ~n, color = ~grade, type = "bar")
 
+rest_inspect_sample |> 
+  mutate(boro = fct_reorder(boro, score)) |> 
+  plot_ly(y = ~score, color = ~boro, type = "box")
+
+rest_inspect_sample |> 
+  plot_ly(x = ~inspection_date, y = ~score, type = "scatter", mode = "markers", 
+          color = ~critical_flag)
+```
 
