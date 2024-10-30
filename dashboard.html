@@ -296,13 +296,13 @@ p8105.datasets package: – Instacart, NY NOAA, NYC Restaurant
 Inspections</p>
 <p>These datasets are large; you may want / need to filter or randomly
 sample from the complete dataset to ensure a reasonable product.</p>
-<p>Load NY NOAA data.</p>
-<pre class="r"><code>data(&quot;ny_noaa&quot;) 
+<p>Load NYC Restaurant Data.</p>
+<pre class="r"><code>data(&quot;rest_inspec&quot;) 
 
-ny_noaa_sample &lt;- 
-  ny_noaa |&gt; 
+rest_inspect_sample &lt;- 
+  rest_inspec |&gt; 
   drop_na() |&gt; 
-  slice_sample(n = 500) </code></pre>
+  slice_sample(n = 500)</code></pre>
 
 
 

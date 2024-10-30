@@ -13,13 +13,15 @@ Create a flexdashboard using plotly for that includes at least three distinct pl
 
 These datasets are large; you may want / need to filter or randomly sample from the complete dataset to ensure a reasonable product.
 
-Load NY NOAA data.
+Load NYC Restaurant Data.
 ```{r}
-data("ny_noaa") 
+data("rest_inspec") 
 
-ny_noaa_sample <- 
-  ny_noaa |> 
+rest_inspect_sample <- 
+  rest_inspec |> 
   drop_na() |> 
-  slice_sample(n = 500) 
+  slice_sample(n = 500)
 ```
+
+
 
