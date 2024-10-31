@@ -1,15 +1,19 @@
 ---
 title: "NYC Restaurant Inspections Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-```{r setup, message = FALSE}
+```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
 library(dplyr)
 ```
 
-Load NYC restaurant inspection data.
 ```{r}
 data("rest_inspec") 
 
@@ -19,23 +23,34 @@ rest_inspect_sample <-
   slice_sample(n = 500)
 ```
 
-Generate plots for NYC restaurant inspection data.
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
 ```{r}
-bar_graph <- 
-  rest_inspect_sample |> 
+rest_inspect_sample |> 
   count(grade) |> 
   mutate(grade = fct_reorder(grade, n)) |> 
   plot_ly(x = ~grade, y = ~n, color = ~grade, type = "bar")
+```
 
-box_chart <- 
-  rest_inspect_sample |> 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+rest_inspect_sample |> 
   mutate(boro = fct_reorder(boro, score)) |> 
   plot_ly(y = ~score, color = ~boro, type = "box")
+```
 
-scatterplot <- 
-  rest_inspect_sample |> 
+### Chart C
+
+```{r}
+rest_inspect_sample |> 
   plot_ly(x = ~inspection_date, y = ~score, type = "scatter", mode = "markers", 
           color = ~critical_flag)
-
 ```
 
